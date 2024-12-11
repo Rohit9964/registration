@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering College Admission Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>About Bangalore Institute of Technology</h1>
+      <p>Bangalore Institute of Technology (BIT) was established in 1979 under the auspices of Rajya Vokkaligara Sangha, Bengaluru. It is an autonomous engineering college affiliated with Visvesvaraya Technological University (VTU), Belagavi. BIT offers a wide range of undergraduate and postgraduate engineering courses, as well as management courses. The institute has a strong focus on research and development, with 13 R&D centers and various centers of excellence in each department. BIT's training and placement cell has partnerships with over 300 companies, ensuring excellent placement opportunities for its students.</p>
+    </header>
+    
+    <h2>Engineering College Admission Form</h2>
+    <form id="admissionForm" action="submit.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="mobile">Mobile Number:</label>
+      <input type="tel" id="mobile" name="mobile" required>
+      
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" required>
+      
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required>
+      
+      <label for="previousMarks">Previous College Marks (%):</label>
+      <input type="number" id="previousMarks" name="previousMarks" required>
+      
+      <label for="jeeRank">JEE Rank:</label>
+      <input type="number" id="jeeRank" name="jeeRank" required>
+      
+      <label for="branch">Preferred Branch:</label>
+      <select id="branch" name="branch" required>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Electrical Engineering">Electrical Engineering</option>
+        <option value="Civil Engineering">Civil Engineering</option>
+        <option value="Electronics and Communication">Electronics and Communication</option>
+      </select>
+      
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+      
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+
