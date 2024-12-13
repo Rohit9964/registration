@@ -35,7 +35,7 @@
                 echo "<p><strong>State:</strong> " . htmlspecialchars($row["state"]) . "</p>";
                 echo "<p><strong>City:</strong> " . htmlspecialchars($row["city"]) . "</p>";
                 echo "<p><strong>Previous College Marks:</strong> " . htmlspecialchars($row["previousMarks"]) . "%</p>";
-                echo "<p><strong>KCET Rank:</strong> " . htmlspecialchars($row["jeeRank"]) . "</p>";
+                echo "<p><strong>KCET Rank:</strong> " . htmlspecialchars($row["KCETRank"]) . "</p>";
                 echo "<p><strong>Preferred Branch:</strong> " . htmlspecialchars($row["branch"]) . "</p>";
                 echo "<p><strong>Date of Birth:</strong> " . htmlspecialchars($row["dob"]) . "</p>";
                 echo "<p><strong>Address:</strong> " . htmlspecialchars($row["address"]) . "</p>";
