@@ -7,11 +7,13 @@ body {
 
 .container {
   width: 80%;
+  max-width: 800px;
   margin: 0 auto;
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
+  border-radius: 8px;
 }
 
 header {
@@ -19,7 +21,7 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 8px 8px 0 0;
 }
 
 header h1 {
@@ -34,11 +36,13 @@ header p {
 
 h2 {
   color: #333;
+  margin-bottom: 20px;
 }
 
 label {
   display: block;
   margin: 10px 0 5px;
+  font-weight: bold;
 }
 
 input, select, textarea {
@@ -47,6 +51,11 @@ input, select, textarea {
   margin: 5px 0 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
 }
 
 button {
@@ -56,8 +65,17 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 button:hover {
   background-color: #005bb5;
+}
+
+#submittedInfo {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #e9f5ff;
+  border: 1px solid #0073e6;
+  border-radius: 4px;
 }
